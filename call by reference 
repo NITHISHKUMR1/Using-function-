@@ -1,0 +1,20 @@
+// call by reference Using two integer swap 
+ #include <stdio.h>
+void swap(int *ng, int *ns) {
+    int temp = *ng;
+    *ng = *ns;
+    *ns = temp;
+}
+
+int main() {
+    int ng,ns;
+     printf("enter the two value ");
+     scanf(" %d %d",&ng,&ns);
+
+    printf("Before swapping: ng = %d, ns = %d\n", x, y);
+    swap(&x, &y);
+
+    printf("After swapping: ng = %d, ns = %d\n", ng, ns);
+
+    return 0;
+}
