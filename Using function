@@ -1,0 +1,16 @@
+#include<stdio.h>
+void at(int s)
+{
+   int area;
+   area = s*s;
+   printf("Area of Square : %d", area);
+}
+void main()
+{
+   int square ;
+
+   printf("\nEnter the Length of Side : ");
+   scanf("%d", &square );
+
+   at(square) ;
+}
